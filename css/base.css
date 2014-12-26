@@ -7,37 +7,19 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
-.alredydone .line {
-  border-bottom: 1px solid #a4a4a4;
-  display: block;
-  left: 10px;
-  margin-bottom: 10px;
-  position: absolute;
-  right: 10px;
-  top: 24.2em;
-  z-index: -50;
-}
 .doing {
   font-weight: 800;
   text-align: center;
   text-transform: uppercase;
 }
-.doing .line {
-  border-bottom: 1px solid #a4a4a4;
-  display: block;
-  left: 10px;
-  margin-bottom: 10px;
-  position: absolute;
-  right: 10px;
-  top: 13.2em;
-  z-index: -50;
-}
 footer {
   background-color: #008000;
   margin-top: 1em;
+  position: relative;
 }
 .formacion_item h4 {
   margin-bottom: 0;
+  overflow: hidden;
 }
 .formacion_item h5 {
   margin-top: 0;
@@ -62,7 +44,7 @@ h3 {
 }
 .icon-github {
   position: absolute;
-  top: 71.5em;
+  bottom: 0.5em;
   right: 1em;
 }
 .intro {
@@ -80,6 +62,40 @@ h3 {
   text-decoration: none;
   top: 0.3em;
 }
+#puls2014from {
+  position: absolute;
+  left: 0.5em;
+  top: -2.5em;
+}
+.works article {
+  display: inline-block;
+  margin-bottom: 15em;
+  position: relative;
+}
+.works article:last-child {
+  margin-bottom: 5em;
+}
+.works article .workdetails {
+  left: 2.5em;
+  position: absolute;
+  top: 15.6em;
+  width: 250px;
+}
+.works article .workdetails h3 {
+  text-align: left;
+  text-decoration: none;
+}
+.works article .workdetails h4 {
+color
+  font-weight: 300;
+  text-align: center;
+}
+.works article .workdetails .clipurl {
+  position: absolute;
+  right: 0.5em;
+  top: -2em;
+}
+/* Menu Components */
 header ul {
   position: absolute;
   top: 1.5em;
@@ -95,4 +111,31 @@ header ul li a {
   color: #000;
   text-decoration: none;
   text-transform: uppercase;
+}
+@media screen and (max-width: 480px) {
+  .alredydone .text {
+    margin-top: 1em;
+  }
+  .link_formacion {
+    left: 5em;
+  }
+  .works article {
+    margin-bottom: 10em;
+  }
+  header {
+    margin-bottom: 7em;
+  }
+  header ul {
+    position: absolute;
+    top: 5em;
+    left: 6em;
+  }
+  header ul li {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  header ul li a {
+    display: block;
+    font-size: 1.1em;
+  }
 }
