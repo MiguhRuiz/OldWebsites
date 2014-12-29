@@ -1,6 +1,10 @@
+/* Normalize CSS */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css");
+/* Bad Script Font*/
 @import url("http://fonts.googleapis.com/css?family=Bad+Script");
+/* Open Sans Font */
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700");
+/* CSS3 Styles */
 body {
   background: #add8e6;
   font-family: "Open Sans";

@@ -6,3 +6,6 @@ Para descargar alguna de las versiones tienes un apartado de versiones :)
 
 
 Si deseas ver el sitio web con su versión estable más reciente [clickea aquí](http://miguhruiz.pw).
+
+##Nota sobre la última versión
+Fue un trabajo algo duro hacer esta última versión pero está hecha con mucho amor y deseando escuchar su feedback
