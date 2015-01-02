@@ -36,12 +36,10 @@ footer {
 .formacion_item h5 {
   margin-top: 0;
 }
-.formacion_item h4,
-.formacion_item h5 {
-  left: 0.6em;
+.formacion_item h4 {
+  left: 5.5em;
   position: relative;
-  top: 0.6em;
-  width: 1200px;
+  top: -4em;
 }
 .formacion_item img {
   float: left;
