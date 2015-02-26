@@ -1,3 +1,195 @@
+/* Miguh's Site Styles*/
+/* Normalize CSS */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css");
+/* Open Sans Font */
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700");
-body{background:#add8e6;font-family:"Open Sans"}footer{background-color:#008000;margin-top:1em;position:relative}h1{color:#fff;font-family:'Open Sans';margin-left:.5em;max-width:203px}h3{text-decoration:underline}.center_ut{text-align:center}.icon-github{position:absolute;bottom:.5em;right:1em}.intro{background:#808080;color:#fff}.main_header{position:relative}.my_article{color:#006400;font-size:1.2em;text-decoration:none}.my_article::before{content:">>   ";color:#000}.my_article::after{content:"   <<";color:#000}.prof_description{line-height:25%;margin-top:4em}.prof_name{border:3px solid #fff;padding:.2em .3em;position:absolute;left:8.2em;top:6em}.prof_photo img{border-radius:50%}#puls2014from{position:absolute;left:.5em;top:-2.5em}.works{margin-bottom:4em;max-width:100%}.works article{display:inline-block;max-width:100%;margin-bottom:15em;position:relative}.works article:last-child{margin-bottom:5em}.works article .workdetails{left:2.5em;position:absolute;top:15.6em;width:250px}.works article .workdetails h3{max-width:1200px;text-align:left;text-decoration:none}.works article .workdetails h4{colorfont-weight:300;max-width:1200px;text-align:center}.works article .workdetails .clipurl{position:absolute;right:.5em;top:-2em}.formacion{margin-left:.2em}.alredydone,.doing{font-size:1.2em;text-align:center;text-transform:uppercase}.link_formacion{background:#008000;border-radius:.3em .3em .3em .3em;color:#fff;left:25em;padding:.5em 1em;position:relative;text-decoration:none;top:-.5em}.formacion_item img{float:left;margin-right:1em;position:relative;top:-1em}.formacion_item .titulo{margin-bottom:0}.formacion_item .skills{margin-top:0}header ul{position:absolute;top:1.5em;right:3.5em}header ul li{display:inline-block}header ul li{margin-right:1em}header ul li a{color:#000;text-decoration:none;text-transform:uppercase}@media screen and (max-width:480px){.works article{margin-bottom:10em}header{margin-bottom:7em}header ul{position:absolute;top:5em;left:6em}header ul li{display:block;margin-bottom:.5em}header ul li a{display:block;font-size:1.1em}}@media screen and (max-width:800px){.link_formacion{left:9em}}
+/* CSS3 Styles for v4 Version*/
+body {
+  background: #add8e6;
+  font-family: "Open Sans";
+}
+footer {
+  background-color: #008000;
+  margin-top: 1em;
+  position: relative;
+}
+h1 {
+  color: #fff;
+  font-family: 'Open Sans';
+  margin-left: 0.5em;
+  max-width: 203px;
+}
+h3 {
+  text-decoration: underline;
+}
+.center_ut {
+  text-align: center;
+}
+.foot_text {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin: 0 auto;
+  padding: 1em;
+  text-align: center;
+}
+.foot_text::before {
+  content: "© ";
+}
+.icon-github {
+  position: absolute;
+  bottom: 1em;
+  right: 1.5em;
+}
+.intro {
+  background: #808080;
+  color: #fff;
+}
+.main_header {
+  position: relative;
+}
+.my_article {
+  color: #006400;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+.my_article::before {
+  content: ">>   ";
+  color: #000;
+}
+.my_article::after {
+  content: "   <<";
+  color: #000;
+}
+.prof_description {
+  line-height: 25%;
+  margin-top: 4em;
+}
+.prof_name {
+  border: 3px solid #fff;
+  padding: 0.2em 0.3em;
+  position: absolute;
+  left: 7.5em;
+  top: 5.8em;
+}
+.prof_photo img {
+  border-radius: 50%;
+}
+#puls2014from {
+  position: absolute;
+  left: 0.5em;
+  top: -2.5em;
+}
+.works {
+  margin-bottom: 4em;
+  max-width: 100%;
+}
+.works article {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 15em;
+  position: relative;
+}
+.works article:last-child {
+  margin-bottom: 5em;
+}
+.works article .workdetails {
+  left: 2.5em;
+  position: absolute;
+  top: 15.6em;
+  width: 250px;
+}
+.works article .workdetails h3 {
+  max-width: 1200px;
+  text-align: left;
+  text-decoration: none;
+}
+.works article .workdetails h4 {
+color
+  font-weight: 300;
+  max-width: 1200px;
+  text-align: center;
+}
+.works article .workdetails .clipurl {
+  position: absolute;
+  right: 0.5em;
+  top: -2em;
+}
+/*Styles for Formation Items*/
+.formacion {
+  margin-left: 0.2em;
+}
+.alredydone,
+.doing {
+  font-size: 1.2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.link_formacion {
+  background: #008000;
+  border-radius: 0.3em 0.3em 0.3em 0.3em;
+  color: #fff;
+  left: 25em;
+  padding: 0.5em 1em;
+  position: relative;
+  text-decoration: none;
+  top: -0.5em;
+}
+.formacion_item img {
+  float: left;
+  margin-right: 1em;
+  position: relative;
+  top: -1em;
+}
+.formacion_item .titulo {
+  margin-bottom: 0;
+}
+.formacion_item .skills {
+  margin-top: 0;
+}
+/* Menu Components */
+header ul {
+  position: absolute;
+  top: 1.5em;
+  right: 3.5em;
+}
+header ul li {
+  display: inline-block;
+}
+header ul li {
+  margin-right: 1em;
+}
+header ul li a {
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 480px) {
+  .works article {
+    margin-bottom: 10em;
+  }
+  header {
+    margin-bottom: 7em;
+  }
+  header ul {
+    position: absolute;
+    top: 5em;
+    left: 6em;
+  }
+  header ul li {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  header ul li a {
+    display: block;
+    font-size: 1.1em;
+  }
+}
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 17px;
+  }
+  .link_formacion {
+    left: 9em;
+  }
+}
