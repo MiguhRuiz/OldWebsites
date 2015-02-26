@@ -22,6 +22,9 @@ h1 {
 h3 {
   text-decoration: underline;
 }
+.center_ut {
+  text-align: center;
+}
 .icon-github {
   position: absolute;
   bottom: 0.5em;
@@ -30,6 +33,36 @@ h3 {
 .intro {
   background: #808080;
   color: #fff;
+}
+.main_header {
+  position: relative;
+}
+.my_article {
+  color: #006400;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+.my_article::before {
+  content: ">>   ";
+  color: #000;
+}
+.my_article::after {
+  content: "   <<";
+  color: #000;
+}
+.prof_description {
+  line-height: 25%;
+  margin-top: 4em;
+}
+.prof_name {
+  border: 3px solid #fff;
+  padding: 0.2em 0.3em;
+  position: absolute;
+  left: 8.2em;
+  top: 6em;
+}
+.prof_photo img {
+  border-radius: 50%;
 }
 #puls2014from {
   position: absolute;
