@@ -1,195 +1,200 @@
 /* Miguh's Site Styles*/
-/* Normalize CSS */
-@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css");
-/* Open Sans Font */
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700");
-/* CSS3 Styles for v4 Version*/
+@import url("http://fonts.googleapis.com/css?family=Lato");
+* {
+  margin: 0;
+}
 body {
-  background: #add8e6;
+  background: #fcfcfc;
   font-family: "Open Sans";
-}
-footer {
-  background-color: #008000;
-  margin-top: 1em;
+  font-size: 16px;
   position: relative;
 }
-h1 {
-  color: #fff;
-  font-family: 'Open Sans';
-  margin-left: 0.5em;
-  max-width: 203px;
+nav {
+  position: fixed;
 }
-h3 {
-  text-decoration: underline;
+nav .logo {
+  font-family: "Lato";
 }
-.center_ut {
-  text-align: center;
+nav ul {
+  position: absolute;
+  right: 0;
 }
-.foot_text {
-  color: #fff;
-  font-size: 1.5em;
+.contact_redirect {
+  background: #147a8f;
   font-weight: 300;
+  height: 2.5em;
   margin: 0 auto;
-  padding: 1em;
-  text-align: center;
-}
-.foot_text::before {
-  content: "© ";
-}
-.icon-github {
-  position: absolute;
-  bottom: 1em;
-  right: 1.5em;
-}
-.intro {
-  background: #808080;
-  color: #fff;
-}
-.main_header {
+  margin-top: 1em;
+  padding: 0;
   position: relative;
+  width: 150px;
 }
-.my_article {
-  color: #006400;
-  font-size: 1.2em;
-  text-decoration: none;
+.contact_redirect:hover {
+  background: #0b3e46;
 }
-.my_article::before {
-  content: ">>   ";
-  color: #000;
-}
-.my_article::after {
-  content: "   <<";
-  color: #000;
-}
-.prof_description {
-  line-height: 25%;
-  margin-top: 4em;
-}
-.prof_name {
-  border: 3px solid #fff;
-  padding: 0.2em 0.3em;
-  position: absolute;
-  left: 7.5em;
-  top: 5.8em;
-}
-.prof_photo img {
-  border-radius: 50%;
-}
-#puls2014from {
+.contact_redirect a {
+  color: #fff;
   position: absolute;
   left: 0.5em;
-  top: -2.5em;
+  top: 0.4em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
 }
-.works {
-  margin-bottom: 4em;
-  max-width: 100%;
-}
-.works article {
-  display: inline-block;
-  max-width: 100%;
-  margin-bottom: 15em;
+.course {
+  margin-bottom: 2em;
   position: relative;
 }
-.works article:last-child {
-  margin-bottom: 5em;
-}
-.works article .workdetails {
-  left: 2.5em;
+.course_description {
   position: absolute;
-  top: 15.6em;
-  width: 250px;
+  top: 3em;
+  left: 6em;
 }
-.works article .workdetails h3 {
-  max-width: 1200px;
-  text-align: left;
+.course_infobtn {
+  background: #309300;
+  bottom: -3em;
+  height: 35px;
+  position: absolute;
+  right: 2.5em;
+  width: 100px;
+}
+.course_infobtn:hover {
+  background: #1e5b00;
+}
+.course_infobtn_link {
+  color: #fff;
+  margin-left: 15px;
+  position: absolute;
   text-decoration: none;
+  text-transform: uppercase;
+  top: 0.4em;
 }
-.works article .workdetails h4 {
-color
-  font-weight: 300;
-  max-width: 1200px;
-  text-align: center;
-}
-.works article .workdetails .clipurl {
-  position: absolute;
-  right: 0.5em;
-  top: -2em;
-}
-/*Styles for Formation Items*/
-.formacion {
+.course_photo {
   margin-left: 0.2em;
 }
-.alredydone,
-.doing {
-  font-size: 1.2em;
+.course_title {
+  font-family: "Open Sans";
+  font-weight: 800;
+  position: absolute;
+  top: 1em;
+  left: 6em;
+}
+.disabled {
+  display: none;
+}
+.edu {
+  margin-bottom: 3em;
+  position: relative;
+}
+.edu h2 {
+  margin-top: 1em;
   text-align: center;
   text-transform: uppercase;
 }
-.link_formacion {
-  background: #008000;
-  border-radius: 0.3em 0.3em 0.3em 0.3em;
-  color: #fff;
-  left: 25em;
-  padding: 0.5em 1em;
-  position: relative;
-  text-decoration: none;
-  top: -0.5em;
-}
-.formacion_item img {
-  float: left;
-  margin-right: 1em;
-  position: relative;
-  top: -1em;
-}
-.formacion_item .titulo {
-  margin-bottom: 0;
-}
-.formacion_item .skills {
-  margin-top: 0;
-}
-/* Menu Components */
-header ul {
+.finished {
+  border-left: 1px solid #000;
   position: absolute;
-  top: 1.5em;
-  right: 3.5em;
+  top: 2em;
+  right: 0;
+  width: 49%;
 }
-header ul li {
+.finished .course {
+  margin-left: 1em;
+}
+.hasline {
+  border-right: 1.5px solid #fff;
+}
+.item_link {
+  color: #fff;
+  font-family: "Lato";
+  font-size: 1.1em;
+  margin-right: 1em;
+  text-decoration: none;
+}
+.link_list {
+  position: absolute;
+  top: 1em;
+  right: 5em;
+}
+.menu {
+  background: #000;
+  color: #fff;
+  height: 50px;
+  position: relative;
+}
+.menu_item:first_child {
+  border: 0;
+}
+.menu_item {
   display: inline-block;
-}
-header ul li {
+  list-style: none;
   margin-right: 1em;
 }
-header ul li a {
-  color: #000;
-  text-decoration: none;
+.menu_item:hover {
+  border-top: 5px solid #ffa500;
+}
+.name {
+  font-size: 1.3em;
+  margin-left: 1em;
+  padding-top: 0.5em;
+}
+.now {
+  height: 720px;
+  margin: 0px;
+  width: 49%;
+}
+.principal_phrase {
+  background: url("../principal.jpg");
+  background-position: center;
+  color: #fff;
+  font-size: 1.2em;
+  height: 250px;
+}
+.principal_phrase h2 {
+  margin: 0 0 0.2em 0;
+  text-align: center;
+}
+.principal_text {
+  padding-top: 2em;
+}
+.proyect {
+  height: 350px;
+  margin-top: 6em;
+  position: relative;
+  width: 350px;
+}
+.proyect_info {
+  background: #1d297f;
+  bottom: 0;
+  height: 50px;
+  position: absolute;
+  width: 350px;
+}
+.proyect_info p {
+  color: #fff;
+  margin-top: 0.8em;
+  text-align: center;
+}
+.proyects {
+  background: #0e1540;
+  display: flex;
+  justify-content: space-around;
+/*For the moment*/
+  height: 500px;
+}
+.proyects h2 {
+  color: #fff;
+  height: 1em;
+  padding: 1em 0;
+  text-align: center;
   text-transform: uppercase;
 }
-@media screen and (max-width: 480px) {
-  .works article {
-    margin-bottom: 10em;
-  }
-  header {
-    margin-bottom: 7em;
-  }
-  header ul {
-    position: absolute;
-    top: 5em;
-    left: 6em;
-  }
-  header ul li {
-    display: block;
-    margin-bottom: 0.5em;
-  }
-  header ul li a {
-    display: block;
-    font-size: 1.1em;
-  }
-}
-@media screen and (max-width: 800px) {
-  html {
-    font-size: 17px;
-  }
-  .link_formacion {
-    left: 9em;
-  }
+.whoiam {
+  color: #ffa500;
+  font-size: 0.5em;
+  position: absolute;
+  text-transform: uppercase;
+  top: 1.5em;
+  left: 16em;
 }
