@@ -4,6 +4,9 @@
 * {
   margin: 0;
 }
+a {
+  text-decoration: none;
+}
 body {
   background: #fcfcfc;
   font-family: "Open Sans";
@@ -102,14 +105,10 @@ nav ul {
 .finished .course {
   margin-left: 1em;
 }
-.hasline {
-  border-right: 1.5px solid #fff;
-}
 .item_link {
   color: #fff;
   font-family: "Lato";
   font-size: 1.1em;
-  margin-right: 1em;
   text-decoration: none;
 }
 .link_list {
@@ -130,6 +129,13 @@ nav ul {
   display: inline-block;
   list-style: none;
   margin-right: 1em;
+}
+.menu_item:after {
+  color: #fff;
+  content: " |  ";
+}
+.menu_item:last-child:after {
+  content: "";
 }
 .menu_item:hover {
   border-top: 5px solid #ffa500;
@@ -177,7 +183,7 @@ nav ul {
   text-align: center;
 }
 .proyects {
-  background: #0e1540;
+  background: #064780;
   display: flex;
   justify-content: space-around;
 /*For the moment*/
