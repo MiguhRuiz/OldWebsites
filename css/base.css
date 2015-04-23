@@ -1,4 +1,294 @@
+/* Miguh's Site Styles*/
 @import url("icons.css");
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700");
 @import url("http://fonts.googleapis.com/css?family=Lato");
-*{margin:0}a{text-decoration:none}body{background:#fcfcfc;font-family:"Open Sans";font-size:16px;position:relative}nav{position:fixed}nav .logo{font-family:"Lato"}nav ul{position:absolute;right:0}.contact_links{font-size:1.3em;position:absolute;top:6em;right:20em}.contact_links a{font-family:Lato;margin-left:2em}.contact_main{position:relative}.contact_main a{color:#000;text-decoration:none}.contact_main h1{font-size:2em;text-align:center}.contact_redirect{background:#147a8f;font-weight:300;height:2.5em;margin:0 auto;margin-top:1em;padding:0;position:relative;width:150px}.contact_redirect:hover{background:#0b3e46}.contact_redirect a{color:#fff;position:absolute;left:.5em;top:.4em;text-align:center;text-decoration:none;text-transform:uppercase}.course{margin-bottom:2em;position:relative}.course_description{position:absolute;top:3em;left:6em}.course_infobtn{background:#309300;bottom:-3em;height:35px;position:absolute;right:2.5em;width:100px}.course_infobtn:hover{background:#1e5b00}.course_infobtn_link{color:#fff;margin-left:15px;position:absolute;text-decoration:none;text-transform:uppercase;top:.4em}.course_photo{margin-left:.2em}.course_title{font-family:"Open Sans";font-weight:800;position:absolute;top:1em;left:6em}.disabled{display:none}.edu{margin-bottom:3em;position:relative}.edu h2{margin-top:1em;text-align:center;text-transform:uppercase}.finished{border-left:1px solid #000;position:absolute;top:2em;right:0;width:49%}.finished .course{margin-left:1em}.item_link{color:#fff;font-family:"Lato";font-size:1.1em;text-decoration:none}.link_list{position:absolute;top:1em;right:5em}.menu{background:#000;color:#fff;height:50px;position:relative}.menu_item:first_child{border:0}.menu_item{display:inline-block;list-style:none;margin-right:1em}.menu_item:after{color:#fff;content:" |  "}.menu_item:last-child:after{content:""}.menu_item:hover{border-top:5px solid #ffa500}.name{font-size:1.3em;margin-left:1em;padding-top:.5em}.now{height:720px;margin:0;width:49%}.principal_phrase{background:url("../principal.jpg");background-position:center;color:#fff;font-size:1.2em;height:250px}.principal_phrase h2{margin:0 0 .2em 0;text-align:center}.principal_text{padding-top:2em}.proyect{height:350px;margin-top:6em;position:relative;width:350px}.proyect_info{background:#1d297f;bottom:0;height:50px;position:absolute;width:350px}.proyect_info p{color:#fff;margin-top:.8em;text-align:center}.proyects{background:#064780;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-justify-content:space-around;-ms-flex-pack:distribute;justify-content:space-around;height:500px}.proyects h2{color:#fff;height:1em;padding:1em 0;text-align:center;text-transform:uppercase}.whoiam{color:#ffa500;font-size:.5em;position:absolute;text-transform:uppercase;top:1.5em;left:16em}
+* {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background: #fcfcfc;
+  font-family: "Open Sans";
+  font-size: 16px;
+  position: relative;
+}
+nav {
+  position: fixed;
+}
+nav .logo {
+  font-family: "Lato";
+}
+nav ul {
+  position: absolute;
+  right: 0;
+}
+.contact_links {
+  font-size: 1.3em;
+  position: absolute;
+  top: 6em;
+  right: 20em;
+}
+.contact_links a {
+  font-family: Lato;
+  margin-left: 2em;
+}
+.contact_main {
+  position: relative;
+}
+.contact_main a {
+  color: #000;
+  text-decoration: none;
+}
+.contact_main h1 {
+  font-size: 2em;
+  text-align: center;
+}
+.contact_redirect {
+  background: #147a8f;
+  font-weight: 300;
+  height: 2.5em;
+  margin: 0 auto;
+  margin-top: 1em;
+  padding: 0;
+  position: relative;
+  width: 150px;
+}
+.contact_redirect:hover {
+  background: #0b3e46;
+}
+.contact_redirect a {
+  color: #fff;
+  position: absolute;
+  left: 0.5em;
+  top: 0.4em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.course {
+  margin-bottom: 2em;
+  position: relative;
+}
+.course_description {
+  position: absolute;
+  top: 3em;
+  left: 6em;
+}
+.course_infobtn {
+  background: #309300;
+  bottom: -3em;
+  height: 35px;
+  position: absolute;
+  right: 2.5em;
+  width: 100px;
+}
+.course_infobtn:hover {
+  background: #1e5b00;
+}
+.course_infobtn_link {
+  color: #fff;
+  margin-left: 15px;
+  position: absolute;
+  text-decoration: none;
+  text-transform: uppercase;
+  top: 0.4em;
+}
+.course_photo {
+  margin-left: 0.2em;
+}
+.course_title {
+  font-family: "Open Sans";
+  font-weight: 800;
+  position: absolute;
+  top: 1em;
+  left: 6em;
+}
+.disabled {
+  display: none;
+}
+.edu {
+  margin-bottom: 3em;
+  position: relative;
+}
+.edu h2 {
+  margin-top: 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.finished {
+  border-left: 1px solid #000;
+  position: absolute;
+  top: 2em;
+  right: 0;
+  width: 49%;
+}
+.finished .course {
+  margin-left: 1em;
+}
+.item_link {
+  color: #fff;
+  font-family: "Lato";
+  font-size: 1.1em;
+  text-decoration: none;
+}
+.link_list--sm,
+menu_item--sm,
+item_link--sm {
+  display: none;
+}
+.link_list {
+  position: absolute;
+  top: 1em;
+  right: 5em;
+}
+.menu {
+  background: #000;
+  color: #fff;
+  height: 50px;
+  position: relative;
+}
+.menu_item:first_child {
+  border: 0;
+}
+.menu_item {
+  display: inline-block;
+  list-style: none;
+  margin-right: 1em;
+}
+.menu_item:after {
+  color: #fff;
+  content: " |  ";
+}
+.menu_item:last-child:after {
+  content: "";
+}
+.menu_item:hover {
+  border-top: 5px solid #ffa500;
+}
+.name {
+  font-size: 1.3em;
+  margin-left: 1em;
+  padding-top: 0.5em;
+}
+.now {
+  height: 720px;
+  margin: 0px;
+  width: 49%;
+}
+.principal_phrase {
+  background: url("../principal.jpg");
+  background-position: center;
+  color: #fff;
+  font-size: 1.2em;
+  height: 250px;
+}
+.principal_phrase h2 {
+  margin: 0 0 0.2em 0;
+  text-align: center;
+}
+.principal_text {
+  padding-top: 2em;
+}
+.proyect {
+  height: 350px;
+  margin-top: 6em;
+  position: relative;
+  width: 350px;
+}
+.proyect_info {
+  background: #1d297f;
+  bottom: 0;
+  height: 50px;
+  position: absolute;
+  width: 350px;
+}
+.proyect_info p {
+  color: #fff;
+  margin-top: 0.8em;
+  text-align: center;
+}
+.proyects {
+  background: #064780;
+  display: flex;
+  justify-content: space-around;
+/*For the moment*/
+  height: 500px;
+}
+.proyects h2 {
+  color: #fff;
+  height: 1em;
+  padding: 1em 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.whoiam {
+  color: #ffa500;
+  font-size: 0.5em;
+  position: absolute;
+  text-transform: uppercase;
+  top: 1.5em;
+  left: 16em;
+}
+@media screen and (max-width: 768px) {
+  .course {
+    margin-bottom: 7em;
+  }
+  .course_description {
+    margin-top: 1em;
+  }
+  .course_infobtn {
+    position: absolute;
+    top: 11em;
+  }
+  .edu {
+    height: 1500px;
+  }
+  .finished {
+    border: 0;
+    position: absolute;
+    top: 18em;
+    width: 100%;
+  }
+  .item_link--sm {
+    color: #fff;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+  }
+  .link_list {
+    display: none;
+  }
+  .link_list--sm,
+  menu_item--sm,
+  item_link--sm {
+    display: block;
+  }
+  .link_list--sm {
+    background: #000;
+    margin-top: 0.9em;
+    width: 100%;
+  }
+  .menu_item--sm {
+    list-style: none;
+    margin-bottom: 0.5em;
+    text-align: center;
+  }
+  .now {
+    width: 100%;
+  }
+  .principal_phrase {
+    height: 300px;
+    margin-top: 4.7em;
+  }
+  .proyect_preview img {
+    height: 300px;
+    position: absolute;
+    top: 0;
+    width: 300px;
+  }
+  .proyects {
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+}

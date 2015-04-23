@@ -106,6 +106,8 @@ nav ul
 	font-family "Lato"
 	font-size 1.1em
 	text-decoration none
+.link_list--sm, menu_item--sm, item_link--sm
+	display none
 .link_list
 	position absolute
 	top 1em
@@ -181,3 +183,48 @@ nav ul
 	text-transform uppercase
 	top 1.5em
 	left 16em
+	
+@media screen and (max-width: 768px)
+	.course
+		margin-bottom 7em
+	.course_description
+		margin-top 1em
+	.course_infobtn
+		position absolute
+		top 11em
+	.edu
+		height 1500px
+	.finished
+		border 0
+		position absolute
+		top 18em
+		width 100%
+	.item_link--sm
+		color white
+		margin-bottom 1em
+		text-transform uppercase
+	.link_list
+		display none
+	.link_list--sm, menu_item--sm, item_link--sm
+		display block
+	.link_list--sm
+		background black
+		margin-top .9em
+		width 100%
+	.menu_item--sm
+		list-style none
+		margin-bottom .5em
+		text-align center
+	.now
+		width 100%
+	.principal_phrase
+		height 300px
+		margin-top 4.7em
+	.proyect_preview img
+		height 300px
+		position absolute
+		top 0
+		width 300px
+	.proyects
+		align-items flex-start
+		justify-content flex-end
